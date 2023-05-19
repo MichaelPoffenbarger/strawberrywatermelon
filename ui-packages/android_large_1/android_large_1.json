@@ -1,0 +1,487 @@
+{
+  "name": "android_large_1",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "03YrGakCGQ6QXVCH3I7gOQ",
+    "node": "1:61",
+    "version": "3514941307",
+    "component-id": "9ec994ad6c68babee5f1687ad54be3db29129bf1"
+  },
+  "default": "Android Large - 1",
+  "documentation": "Strawberry Watermelon Smoothies",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "vector",
+        "id": "Button1"
+      },
+      {
+        "type": "text",
+        "id": "TextView1"
+      },
+      {
+        "type": "vector",
+        "id": "BtnLike"
+      },
+      {
+        "type": "vector",
+        "id": "BtnDislike"
+      },
+      {
+        "type": "vector",
+        "id": "BtnDownload"
+      },
+      {
+        "type": "vector",
+        "id": "BtnRefresh"
+      },
+      {
+        "type": "vector",
+        "id": "Vector"
+      },
+      {
+        "type": "vector",
+        "id": "Vector1"
+      },
+      {
+        "type": "vector",
+        "id": "Vector2"
+      },
+      {
+        "type": "vector",
+        "id": "Vector3"
+      },
+      {
+        "type": "vector",
+        "id": "TextView2"
+      },
+      {
+        "type": "text",
+        "id": "InfoText"
+      },
+      {
+        "type": "image",
+        "id": "ImageWatermelon"
+      },
+      {
+        "type": "image",
+        "id": "ImageSmoothies"
+      }
+    ],
+    "modes": {
+      "Android Large - 1": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": "false",
+            "children": [
+              "Button1",
+              "TextView1",
+              "BtnLike",
+              "BtnDislike",
+              "BtnDownload",
+              "BtnRefresh",
+              "Vector",
+              "Vector1",
+              "Vector2",
+              "Vector3",
+              "TextView2",
+              "InfoText",
+              "ImageWatermelon",
+              "ImageSmoothies"
+            ],
+            "background-color": {
+              "alpha": "1.0",
+              "hue": "358.42105263157896",
+              "saturation": "0.14901960784313728",
+              "value": "1.0"
+            }
+          },
+          {
+            "id": "Button1",
+            "border-radius": "15.0",
+            "drop-shadow": {
+              "color": {
+                "alpha": "0.24705882352941178",
+                "hue": "0.0",
+                "saturation": "0.0",
+                "value": "0.0"
+              },
+              "blur": "4.0",
+              "offset-x": "0.0",
+              "offset-y": "4.0",
+              "spread": "0.0",
+              "blend-mode": "normal"
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "22.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "690.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "315.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "42.0"
+              }
+            },
+            "vector-content": "button1.svg"
+          },
+          {
+            "id": "TextView1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "114.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "701.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "333.3333333333333",
+              "saturation": "0.9854014598540146",
+              "value": "0.5372549019607843"
+            },
+            "text-content": "Click Here Please",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "16.0",
+            "line-height": "1.2102272510528564",
+            "typeface": "Inter"
+          },
+          {
+            "id": "BtnLike",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "37.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "623.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "btn_like.svg"
+          },
+          {
+            "id": "BtnDislike",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "114.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "623.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "btn_dislike.svg"
+          },
+          {
+            "id": "BtnDownload",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "271.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "623.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "btn_download.svg"
+          },
+          {
+            "id": "BtnRefresh",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "192.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "623.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "50.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "vector-content": "btn_refresh.svg"
+          },
+          {
+            "id": "Vector",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "50.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "635.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "vector-content": "vector.svg"
+          },
+          {
+            "id": "Vector1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "205.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "635.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "vector-content": "vector1.svg"
+          },
+          {
+            "id": "Vector2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "127.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "635.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "vector-content": "vector2.svg"
+          },
+          {
+            "id": "Vector3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "284.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "635.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "vector-content": "vector3.svg"
+          },
+          {
+            "id": "TextView2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "37.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "400.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "284.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "210.0"
+              }
+            },
+            "vector-content": "text_view2.svg"
+          },
+          {
+            "id": "InfoText",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "50.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "400.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "259.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "172.0"
+              }
+            },
+            "color": {
+              "alpha": "1.0",
+              "hue": "333.3333333333333",
+              "saturation": "0.9854014598540146",
+              "value": "0.5372549019607843"
+            },
+            "text-content": "This box is used for informational\ntext purposes here I am using \ntext to display in the box that is \nused for displaying text about \nthings what things those are \nnobody knows just yet.",
+            "overflow": "visible",
+            "max-lines": "-1",
+            "text-align": "left",
+            "text-size": "24.0",
+            "line-height": "1.3583984375",
+            "typeface": "Grand Hotel"
+          },
+          {
+            "id": "ImageWatermelon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "22.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "11.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "315.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "151.0"
+              }
+            },
+            "image-content": "image_watermelon.jpeg",
+            "scale": "cover"
+          },
+          {
+            "id": "ImageSmoothies",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": "22.0"
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": "170.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "315.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "210.0"
+              }
+            },
+            "image-content": "image_smoothies.jpeg",
+            "scale": "cover"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Android Large - 1",
+      "size": {
+        "width": 360.0,
+        "height": 800.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
